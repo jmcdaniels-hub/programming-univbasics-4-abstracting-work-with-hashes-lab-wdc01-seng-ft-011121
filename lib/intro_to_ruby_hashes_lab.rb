@@ -7,7 +7,7 @@ def read_from_hash(hash = {name: 'Steve'}, key= :name)
 end
 
 def update_counting_hash(hash= {}, key= "hello")
-  hash["hello"] = 1
+  hash[key] = 1
 end
 
 
